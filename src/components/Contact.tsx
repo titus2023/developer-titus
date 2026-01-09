@@ -6,7 +6,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 
 const contactInfo = [
-  { icon: Mail, label: 'Email', value: 'alex@developer.com', href: 'mailto:alex@developer.com' },
+  { icon: Mail, label: 'Email', value: 'titusmbui01@gmail.com', href: 'mailto:titusmbui01@gmail.com' },
   { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567', href: 'tel:+15551234567' },
   { icon: MapPin, label: 'Location', value: 'San Francisco, CA', href: '#' },
 ];
