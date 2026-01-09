@@ -1,20 +1,21 @@
 import { ArrowRight, Github, Linkedin, Twitter } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-
 const Hero = () => {
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   };
-
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_hsl(175,80%,50%,0.08)_0%,_transparent_50%)]" />
       <div className="absolute top-1/4 -left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse-glow" />
-      <div className="absolute bottom-1/4 -right-1/4 w-96 h-96 bg-[hsl(200,80%,50%,0.1)] rounded-full blur-3xl animate-pulse-glow" style={{ animationDelay: '1.5s' }} />
+      <div className="absolute bottom-1/4 -right-1/4 w-96 h-96 bg-[hsl(200,80%,50%,0.1)] rounded-full blur-3xl animate-pulse-glow" style={{
+      animationDelay: '1.5s'
+    }} />
       
       {/* Grid Pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(hsl(220,15%,20%,0.3)_1px,transparent_1px),linear-gradient(90deg,hsl(220,15%,20%,0.3)_1px,transparent_1px)] bg-[size:60px_60px] [mask-image:radial-gradient(ellipse_at_center,black_20%,transparent_70%)]" />
@@ -30,7 +31,7 @@ const Hero = () => {
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 opacity-0 animate-fade-up stagger-1">
             Hi, I'm{' '}
-            <span className="gradient-text">Alex Chen</span>
+            <span className="gradient-text">Developer Titus </span>
           </h1>
 
           {/* Subtitle */}
@@ -57,28 +58,13 @@ const Hero = () => {
 
           {/* Social Links */}
           <div className="flex items-center justify-center gap-6 opacity-0 animate-fade-up stagger-5">
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors duration-300"
-            >
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300">
               <Github size={24} />
             </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors duration-300"
-            >
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300">
               <Linkedin size={24} />
             </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors duration-300"
-            >
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300">
               <Twitter size={24} />
             </a>
           </div>
@@ -87,12 +73,10 @@ const Hero = () => {
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 opacity-0 animate-fade-up stagger-6">
-        <div className="w-6 h-10 rounded-full border-2 border-muted-foreground/30 flex justify-center">
+        <div className="w-6 h-10 rounded-full border-2 border-muted-foreground/30 flex justify-center my-0">
           <div className="w-1.5 h-3 bg-primary rounded-full mt-2 animate-bounce" />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
