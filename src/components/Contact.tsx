@@ -7,8 +7,8 @@ import { useToast } from '@/hooks/use-toast';
 
 const contactInfo = [
   { icon: Mail, label: 'Email', value: 'titusmbui01@gmail.com', href: 'mailto:titusmbui01@gmail.com' },
-  { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567', href: 'tel:+15551234567' },
-  { icon: MapPin, label: 'Location', value: 'San Francisco, CA', href: '#' },
+  { icon: Phone, label: 'Phone', value: '+254 768 949 273', href: 'tel:+254768949273' },
+  { icon: MapPin, label: 'Location', value: 'Malindi, Kenya', href: '#' },
 ];
 
 const socialLinks = [
