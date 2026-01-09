@@ -14,7 +14,7 @@ const Footer = () => {
                 &lt;Dev/&gt;
               </a>
               <p className="text-sm text-muted-foreground flex items-center justify-center md:justify-start gap-1">
-                © {currentYear} Alex Chen. Made with <Heart className="w-4 h-4 text-primary" /> and lots of coffee.
+                © {currentYear} Developer Titus. Made with <Heart className="w-4 h-4 text-primary" /> for you.
               </p>
             </div>
 
@@ -48,7 +48,7 @@ const Footer = () => {
                 <Twitter className="w-5 h-5" />
               </a>
               <a
-                href="mailto:alex@developer.com"
+                href="mailto:titusmbui01@gmail.com"
                 className="w-10 h-10 rounded-lg glass-card flex items-center justify-center hover:border-primary/50 hover:text-primary transition-all duration-300"
                 aria-label="Email"
               >
