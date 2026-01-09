@@ -27,9 +27,9 @@ const experiences = [
 const education = [
   {
     type: 'education',
-    title: 'B.S. Computer Science',
-    company: 'State University',
-    period: '2015 - 2019',
+    title: 'Software Engineering',
+    company: 'Power Learn Project - Africa',
+    period: '2024 - 2026',
     description: 'Graduated with honors. Focus on software engineering and algorithms.',
   },
 ];
