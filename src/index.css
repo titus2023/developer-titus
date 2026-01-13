@@ -232,3 +232,6 @@
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(220, 15%, 35%);
 }
+#lovable-badge {
+  display: none !important;
+}
